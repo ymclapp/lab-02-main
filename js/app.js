@@ -71,7 +71,12 @@ $('#bt').click(function () {
 //Show selected value
 $('#sel').change (function () {
   console.log('Selected Item:  ' + this.options[this.selectedIndex].text);
-  // let $this = $(this),
-  //   filterValue = $this.val;
-  // console.log(filterValue);
+  let $this = $(this),
+    filterValue = $this.val;
+  console.log(filterValue);
 });
+
+// $('#bt').click(function () {
+//   $('horn').toggleClass('on');
+//   $('horn').show();
+// });
